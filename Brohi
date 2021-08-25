@@ -97,7 +97,26 @@ def menu():
 		exit(" ! token kadaluwarsa")
 	except requests.exceptions.ConnectionError:
 		exit(" ! tidak ada koneksi internet")
-	logo()
+		
+	logo(o.       oooooooooo.  oooooooooo.   ooooo     ooo ooooo             
+     .888.      `888'   `Y8b `888'   `Y8b  `888'     `8' `888'             
+    .8"888.      888     888  888      888  888       8   888              
+   .8' `888.     888oooo888'  888      888  888       8   888              
+  .88ooo8888.    888    `88b  888      888  888       8   888              
+ .8'     `888.   888    .88P  888     d88'  `88.    .8'   888       o      
+o88o     o8888o o888bood8P'  o888bood8P'      `YbodP'    o888ooooood8      
+                                                                           
+                                                                           
+                                                                           
+oooooo   oooooo     oooo       .o.       ooooo   ooooo ooooo oooooooooo.   
+ `888.    `888.     .8'       .888.      `888'   `888' `888' `888'   `Y8b  
+  `888.   .8888.   .8'       .8"888.      888     888   888   888      888 
+   `888  .8'`888. .8'       .8' `888.     888ooooo888   888   888      888 
+    `888.8'  `888.8'       .88ooo8888.    888     888   888   888      888 
+     `888'    `888'       .8'     `888.   888     888   888   888     d88' 
+      `8'      `8'       o88o     o8888o o888o   o888o o888o o888bood8P)
+      
+      
 	print(" [ selamat datang \033[0;93m%s\033[0;97m ]\n"%(nama))
 	print(" 1 crack From public Friends")
 	print(" 2 crack From public")
@@ -226,25 +245,6 @@ def massal():
 		except KeyError:
 			print(" ! akun tidak tersedia atau list teman private")
 	print(" + total id  : \033[0;91m%s\033[0;97m"%(len(id)))
-
-.o.       oooooooooo.  oooooooooo.   ooooo     ooo ooooo             
-     .888.      `888'   `Y8b `888'   `Y8b  `888'     `8' `888'             
-    .8"888.      888     888  888      888  888       8   888              
-   .8' `888.     888oooo888'  888      888  888       8   888              
-  .88ooo8888.    888    `88b  888      888  888       8   888              
- .8'     `888.   888    .88P  888     d88'  `88.    .8'   888       o      
-o88o     o8888o o888bood8P'  o888bood8P'      `YbodP'    o888ooooood8      
-                                                                           
-                                                                           
-                                                                           
-oooooo   oooooo     oooo       .o.       ooooo   ooooo ooooo oooooooooo.   
- `888.    `888.     .8'       .888.      `888'   `888' `888' `888'   `Y8b  
-  `888.   .8888.   .8'       .8"888.      888     888   888   888      888 
-   `888  .8'`888. .8'       .8' `888.     888ooooo888   888   888      888 
-    `888.8'  `888.8'       .88ooo8888.    888     888   888   888      888 
-     `888'    `888'       .8'     `888.   888     888   888   888     d88' 
-      `8'      `8'       o88o     o8888o o888o   o888o o888o o888bood8P
-
 def method():
 	print(" \n [ pilih method crack - coba method satu² ]\n")
 	print(" 1 method b-api  (m Facebook crack)")
