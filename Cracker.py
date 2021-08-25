@@ -1,4 +1,4 @@
-# ABDUL-WAHID
+# ABDUL-CRACKER
 # -*- coding: utf-8
 # author by angga kurniawan
 import os
@@ -97,6 +97,14 @@ def menu():
 		exit(" ! token kadaluwarsa")
 	except requests.exceptions.ConnectionError:
 		exit(" ! tidak ada koneksi internet")
+reload(sys)
+sys.setdefaultencoding('utf8')
+br = mechanize.Browser()
+br.set_handle_robots(False)
+os.system('clear')
+##### LOGO #####
+logo='''
+
 		
   oooooooooo.  oooooooooo.   ooooo     ooo ooooo             
      .888.      `888'   `Y8b `888'   `Y8b  `888'     `8' `888'             
@@ -117,6 +125,9 @@ oooooo   oooooo     oooo       .o.       ooooo   ooooo ooooo oooooooooo.
       `8'      `8'       o88o     o8888o o888o   o888o o888o o888bood8P
       
       
+
+
+
 	print(" [ selamat datang \033[0;93m%s\033[0;97m ]\n"%(nama))
 	print(" 1 crack From public Friends")
 	print(" 2 crack From public")
