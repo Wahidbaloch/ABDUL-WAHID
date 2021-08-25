@@ -98,7 +98,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		exit(" ! tidak ada koneksi internet")
 		
-	logo(o.       oooooooooo.  oooooooooo.   ooooo     ooo ooooo             
+  oooooooooo.  oooooooooo.   ooooo     ooo ooooo             
      .888.      `888'   `Y8b `888'   `Y8b  `888'     `8' `888'             
     .8"888.      888     888  888      888  888       8   888              
    .8' `888.     888oooo888'  888      888  888       8   888              
@@ -114,7 +114,7 @@ oooooo   oooooo     oooo       .o.       ooooo   ooooo ooooo oooooooooo.
    `888  .8'`888. .8'       .8' `888.     888ooooo888   888   888      888 
     `888.8'  `888.8'       .88ooo8888.    888     888   888   888      888 
      `888'    `888'       .8'     `888.   888     888   888   888     d88' 
-      `8'      `8'       o88o     o8888o o888o   o888o o888o o888bood8P)
+      `8'      `8'       o88o     o8888o o888o   o888o o888o o888bood8P
       
       
 	print(" [ selamat datang \033[0;93m%s\033[0;97m ]\n"%(nama))
